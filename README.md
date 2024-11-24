@@ -9,24 +9,26 @@ EVs-2_SGP41_VOC6.ino sends data thru the serial port at a baud rate of 115,200
 and also displays 4 lines on a OLED display (please verify pinout, some OLED displays have Vcc and GND reversed).
 The display reads:
 	SGP41 VOC Sensor
+ 
 	78.23F, RH 48.00%
+ 
 	NOx = 1, VOC = 94
+ 
 	28.97inHg
+ 
 (Numbers in the data are an example, your readings should be the actual for your conditions)
 
 Example off data sent through the serial port is:
 
 SHT40
+
 T: 21.53        RH: 42.09
+
 Tticks: 24911   RHticks: 25212
 
-SGP41
-compensationRh: 25212   compensationT: 24911
-raw VOC Index: 30327    raw NOx Index: 14924
-VOC Index: 103  NOx Index: 1
 
-ICP-10111
-Temperature: 22.41C
-97909.06Pa      28.92inHg
-Altitude: 302.64m
-------------------------------
+SGP41
+
+compensationRh: 25212   compensationT: 24911
+
+raw VOC Index: 30327    raw NOx Index: 14924
